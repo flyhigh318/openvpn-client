@@ -1,3 +1,14 @@
+## 生产环境已验证
+> 上传到github时已经把关键的隐私信息做了修改，仅提供参考。
+
+### openvpn 服务器配置
+> a. openserver server.conf 支持客户端证书+密码认证模式  
+> b. openserver server.conf 支持客户端分配固定ip模式  
+> c. 生成证书的脚本在openvpnserver/keys/buildkeys.bash  
+> d. 吊销脚本的脚本在openvpnserver/keys/delkeys.bash
+
+
+
 ### 线下打通阿里云内网操作步骤：
 
 >a. 阿里云服务端配置openvpn并开启服务  
