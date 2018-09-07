@@ -8,7 +8,7 @@
 >>> echo "123 qiandai" >> /etc/iproute2/rt_tables  
 >>> ip route show table jiekuan 检查相关的路由表有没成功
 >>  
->> c.2 ip rule 路由策略 (用ip route add 效果一样)   
+>> c.2 ip rule 路由策略 (用ip route add 效果一样)仅列举jiekuan路由表操作方法，qiandai的路由表相关路由一样     
 >>> ip route add default via 192.168.105.5 dev tun0  table jiekuan  
 >>> ip route add 172.18.16.0/20 via 192.168.105.5 dev tun0 table jiekuan  
 >>> ip route add 192.168.105.1 via 192.168.105.5 dev tun0 table jiekuan  
@@ -22,7 +22,7 @@
 >> iptables -A FORWARD -d 172.18.16.0/20 -i enp0s31f6 -o tun0 -j ACCEPT  
 >> iptables  -t nat -A POSTROUTING -s 192.168.103.0/24 -d 172.18.72.12/32 -o tun0 -j MASQUERADE  
 >> iptables  -t nat -A POSTROUTING -s 192.168.102.0/24 -d 172.18.72.12/32 -o tun0 -j MASQUERADE  
->> iptables  -t nat -A POSTROUTING -s 192.168.103.0/24 -d 172.18.16.0/20 -o tun0 -j MASQUERADE
+>> iptables  -t nat -A POSTROUTING -s 192.168.103.0/24 -d 172.18.16.0/20 -o tun0 -j MASQUERADE  
 >> iptables  -t nat -A POSTROUTING -s 192.168.102.0/24 -d 172.18.16.0/20 -o tun0 -j MASQUERADE
 >
 >e. shell脚本启动,需要注意路径.
