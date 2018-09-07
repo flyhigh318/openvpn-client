@@ -1,0 +1,11 @@
+#!/bin/bash
+
+keypath=/root/keys/
+cd /etc/openvpn/easy-rsa/2.0
+. ./vars
+./build-key --batch $1
+cp keys/{$1.key,$1.crt} $keypath
+cd $keypath
+cat ovpn1 $1.crt ovpn2 $1.key ovpn3 > $1.ovpn
+rm $1.crt $1.key
+

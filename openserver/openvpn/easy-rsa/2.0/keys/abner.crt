@@ -1,0 +1,95 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 12 (0xc)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=CN, ST=guangdong, L=guangzhou, O=pinkong, OU=pinkongUnit, CN=pinkong CA/name=EasyRSA/emailAddress=me@myhost.mydomain
+        Validity
+            Not Before: Feb  9 03:40:30 2018 GMT
+            Not After : Feb  7 03:40:30 2028 GMT
+        Subject: C=CN, ST=guangdong, L=guangzhou, O=pinkong, OU=pinkongUnit, CN=abner/name=EasyRSA/emailAddress=me@myhost.mydomain
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:bb:5c:bc:1c:31:55:51:8b:c4:d5:8f:fc:fe:59:
+                    1d:4e:6a:1b:b2:ef:4f:2d:92:39:b2:4b:c2:91:16:
+                    4a:08:72:85:54:dd:65:a4:ac:72:55:73:60:8f:ab:
+                    34:e6:11:3d:5f:de:e3:68:f5:09:24:3a:b8:30:a2:
+                    42:f7:76:d6:37:e7:89:31:51:96:a9:71:3d:94:25:
+                    1a:73:60:a7:3f:cd:4f:19:47:52:28:01:59:f2:1f:
+                    1f:f8:94:a2:58:be:94:6c:dc:8b:f1:39:17:c6:ef:
+                    ec:1d:d7:d4:eb:da:eb:e9:44:8c:92:97:64:fc:50:
+                    55:08:16:79:cf:4c:5b:96:98:0b:cc:f6:b8:97:f1:
+                    f5:82:ca:a7:56:1c:51:90:33:c3:65:94:99:cf:ca:
+                    81:67:28:af:73:fc:f7:7f:ba:6f:12:51:c7:bd:89:
+                    bd:41:2d:43:ad:b0:7b:c0:71:7d:c1:2c:05:0a:04:
+                    f5:e3:ea:22:62:24:73:07:4d:99:30:b3:44:5b:f3:
+                    37:47:d8:8e:0e:06:e0:0c:26:2b:91:3e:49:a4:67:
+                    1b:c4:e5:10:5d:13:ac:6e:3d:1a:d8:6d:44:6f:8e:
+                    b5:6a:d0:e6:ef:4d:65:63:83:8b:8d:12:a3:24:75:
+                    03:85:46:14:67:c4:63:ce:3a:6d:f3:e8:11:7e:7d:
+                    72:5f
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                99:80:36:06:BD:C5:F5:6E:C5:4D:55:82:3D:4D:75:66:D2:92:11:32
+            X509v3 Authority Key Identifier: 
+                keyid:DD:66:BC:A2:3C:3F:28:93:E0:CE:81:B3:F3:57:A8:33:42:61:86:22
+                DirName:/C=CN/ST=guangdong/L=guangzhou/O=pinkong/OU=pinkongUnit/CN=pinkong CA/name=EasyRSA/emailAddress=me@myhost.mydomain
+                serial:AD:43:61:A4:0A:33:8C:89
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha256WithRSAEncryption
+         08:5c:94:d1:22:42:01:b9:a1:26:dd:6c:56:f1:4f:d3:1d:b9:
+         a7:d9:43:47:5d:7f:e2:ec:8b:14:49:f6:92:c1:a3:0c:b7:c4:
+         9d:3a:27:37:c3:06:1d:60:d0:ba:ea:53:d1:30:e0:a4:ed:5b:
+         ea:38:b1:29:f7:a2:18:2a:50:68:93:56:1b:48:93:a7:fa:04:
+         0d:fd:44:80:f2:3d:d1:dc:1b:5d:96:81:76:c1:14:32:d0:45:
+         d1:99:5f:a6:a1:9c:df:b6:ae:a4:01:4d:4c:5c:03:82:42:2d:
+         8a:89:56:31:96:06:f1:4a:e7:3e:eb:3f:1c:ad:c9:df:bb:ea:
+         eb:9e:cb:75:b1:31:81:68:b1:74:0b:84:15:0d:4d:99:3e:a5:
+         46:bf:ac:d0:8e:29:99:af:a5:62:ae:04:c3:64:a4:3e:01:6b:
+         4e:ea:ac:c9:46:5e:be:44:ec:ff:0a:47:23:ee:f8:72:8a:8f:
+         56:4e:14:4e:f7:05:eb:75:04:30:b6:46:22:86:86:e6:60:e7:
+         ff:83:ed:ba:08:2f:c8:af:cf:cc:2d:ee:d6:82:d4:8e:d9:2f:
+         1d:5a:9d:aa:ed:19:42:9d:75:8b:b5:be:3c:4e:46:93:9e:87:
+         d9:96:5c:45:70:52:be:9a:69:84:29:c9:b7:c9:4c:86:ee:26:
+         e1:77:5c:28
+-----BEGIN CERTIFICATE-----
+MIIFJjCCBA6gAwIBAgIBDDANBgkqhkiG9w0BAQsFADCBpzELMAkGA1UEBhMCQ04x
+EjAQBgNVBAgTCWd1YW5nZG9uZzESMBAGA1UEBxMJZ3Vhbmd6aG91MRAwDgYDVQQK
+EwdwaW5rb25nMRQwEgYDVQQLEwtwaW5rb25nVW5pdDETMBEGA1UEAxMKcGlua29u
+ZyBDQTEQMA4GA1UEKRMHRWFzeVJTQTEhMB8GCSqGSIb3DQEJARYSbWVAbXlob3N0
+Lm15ZG9tYWluMB4XDTE4MDIwOTAzNDAzMFoXDTI4MDIwNzAzNDAzMFowgaIxCzAJ
+BgNVBAYTAkNOMRIwEAYDVQQIEwlndWFuZ2RvbmcxEjAQBgNVBAcTCWd1YW5nemhv
+dTEQMA4GA1UEChMHcGlua29uZzEUMBIGA1UECxMLcGlua29uZ1VuaXQxDjAMBgNV
+BAMTBWFibmVyMRAwDgYDVQQpEwdFYXN5UlNBMSEwHwYJKoZIhvcNAQkBFhJtZUBt
+eWhvc3QubXlkb21haW4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC7
+XLwcMVVRi8TVj/z+WR1Oahuy708tkjmyS8KRFkoIcoVU3WWkrHJVc2CPqzTmET1f
+3uNo9QkkOrgwokL3dtY354kxUZapcT2UJRpzYKc/zU8ZR1IoAVnyHx/4lKJYvpRs
+3IvxORfG7+wd19Tr2uvpRIySl2T8UFUIFnnPTFuWmAvM9riX8fWCyqdWHFGQM8Nl
+lJnPyoFnKK9z/Pd/um8SUce9ib1BLUOtsHvAcX3BLAUKBPXj6iJiJHMHTZkws0Rb
+8zdH2I4OBuAMJiuRPkmkZxvE5RBdE6xuPRrYbURvjrVq0ObvTWVjg4uNEqMkdQOF
+RhRnxGPOOm3z6BF+fXJfAgMBAAGjggFeMIIBWjAJBgNVHRMEAjAAMC0GCWCGSAGG
++EIBDQQgFh5FYXN5LVJTQSBHZW5lcmF0ZWQgQ2VydGlmaWNhdGUwHQYDVR0OBBYE
+FJmANga9xfVuxU1Vgj1NdWbSkhEyMIHcBgNVHSMEgdQwgdGAFN1mvKI8PyiT4M6B
+s/NXqDNCYYYioYGtpIGqMIGnMQswCQYDVQQGEwJDTjESMBAGA1UECBMJZ3Vhbmdk
+b25nMRIwEAYDVQQHEwlndWFuZ3pob3UxEDAOBgNVBAoTB3BpbmtvbmcxFDASBgNV
+BAsTC3BpbmtvbmdVbml0MRMwEQYDVQQDEwpwaW5rb25nIENBMRAwDgYDVQQpEwdF
+YXN5UlNBMSEwHwYJKoZIhvcNAQkBFhJtZUBteWhvc3QubXlkb21haW6CCQCtQ2Gk
+CjOMiTATBgNVHSUEDDAKBggrBgEFBQcDAjALBgNVHQ8EBAMCB4AwDQYJKoZIhvcN
+AQELBQADggEBAAhclNEiQgG5oSbdbFbxT9MduafZQ0ddf+LsixRJ9pLBowy3xJ06
+JzfDBh1g0LrqU9Ew4KTtW+o4sSn3ohgqUGiTVhtIk6f6BA39RIDyPdHcG12WgXbB
+FDLQRdGZX6ahnN+2rqQBTUxcA4JCLYqJVjGWBvFK5z7rPxytyd+76uuey3WxMYFo
+sXQLhBUNTZk+pUa/rNCOKZmvpWKuBMNkpD4Ba07qrMlGXr5E7P8KRyPu+HKKj1ZO
+FE73Bet1BDC2RiKGhuZg5/+D7boIL8ivz8wt7taC1I7ZLx1anartGUKddYu1vjxO
+RpOeh9mWXEVwUr6aaYQpybfJTIbuJuF3XCg=
+-----END CERTIFICATE-----

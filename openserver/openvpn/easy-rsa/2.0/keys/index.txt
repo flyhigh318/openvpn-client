@@ -1,0 +1,5 @@
+V	260407045446Z		01	unknown	/C=CN/ST=guangdong/L=guangzhou/O=pinkong/OU=pinkongUnit/CN=server/name=EasyRSA/emailAddress=me@myhost.mydomain
+V	260407055324Z		02	unknown	/C=CN/ST=guangdong/L=guangzhou/O=pinkong/OU=pinkongUnit/CN=qianyue/name=EasyRSA/emailAddress=me@myhost.mydomain
+V	280202131058Z		0B	unknown	/C=CN/ST=guangdong/L=guangzhou/O=pinkong/OU=pinkongUnit/CN=dfxk/name=EasyRSA/emailAddress=me@myhost.mydomain
+V	280207034030Z		0C	unknown	/C=CN/ST=guangdong/L=guangzhou/O=pinkong/OU=pinkongUnit/CN=abner/name=EasyRSA/emailAddress=me@myhost.mydomain
+V	280207133623Z		0D	unknown	/C=CN/ST=guangdong/L=guangzhou/O=pinkong/OU=pinkongUnit/CN=dfxk_qd/name=EasyRSA/emailAddress=me@myhost.mydomain
